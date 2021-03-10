@@ -1,1 +1,1 @@
-print(persona)
+import modulos.modulo_aritmetica as aritmetica
