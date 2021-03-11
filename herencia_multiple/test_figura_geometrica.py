@@ -1,0 +1,10 @@
+from cuadrado import Cuadrado
+from rectangulo import Rectangulo
+
+cuadrado = Cuadrado(4, "Rojo")
+rectangulo = Rectangulo(2, 4, "Azul")
+print(cuadrado)
+print("\n")
+print("/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////")
+print("\n")
+print(rectangulo)
