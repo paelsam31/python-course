@@ -8,7 +8,7 @@ class Cuadrado(FiguraGeometrica, Color):
         Color.__init__(self, color)
 
     def area(self):
-        return self.get_alto() * self.get_ancho()
+        return FiguraGeometrica.get_alto(self) * FiguraGeometrica.get_ancho(self)
 
     def __str__(self):
         return FiguraGeometrica.__str__(self) + f"\nArea: {str(self.area())}" + Color.__str__(self)

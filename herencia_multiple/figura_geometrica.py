@@ -16,4 +16,4 @@ class FiguraGeometrica:
         self.__ancho = ancho
 
     def __str__(self):
-        return f"Alto: {str(self.get_alto())}" + f"\nAncho {str(self.get_ancho())}"
+        return f"Alto {str(self.get_alto())}" + f"\nAncho: {str(self.get_ancho())}"
